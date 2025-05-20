@@ -22,17 +22,21 @@ This project supports Python 3.7 through 3.10 and requires the following package
 - `shap` 
 
 ## Dataset Description
-Each row represents a solvent condition used in nanoparticle formulation. Features include:
-- Curcumin solubility
-- Hansen solubility parameters (δd, δp, δh)
-- Hildebrand parameter
-- Dielectric constant
-- Viscosity
-- Dipole moment
-- Polarity
-Outputs:
-- EE% (Encapsulation Efficiency)
-- DLC% (Drug Loading Capacity)
+Each row in the dataset represents a unique solvent condition used for nanoparticle formulation.  
+The dataset includes the following **input features**:
+
+- **Curcumin solubility**
+- **Hansen solubility parameters**: δd (dispersion), δp (polar), δh (hydrogen bonding)
+- **Hildebrand solubility parameter**
+- **Dielectric constant**
+- **Viscosity**
+- **Dipole moment**
+- **Polarity**
+
+The following are the **target outputs**:
+
+- **EE%** – Encapsulation Efficiency  
+- **DLC%** – Drug Loading Capacity
 
 
 ## Citation
