@@ -1,6 +1,6 @@
 # ML-Based Prediction and Interpretation of Drug Loading in Polymer Nanoparticles
 This repository contains the dataset and Python code used in the study:
-**“Data-Driven Prediction and Interpretation of Drug Encapsulation and Loading Capacity in Polymer Nanoparticles”
+**“Predictive Modelling of Solvent Effects on Drug Incorporation into Polymeric Nanocarriers: A Machine Learning Approach”**
 
 ## Overview
 This project investigates the relationship between solvent physicochemical properties and nanoparticle performance (Encapsulation Efficiency, EE% and Drug Loading Capacity, DLC%) using multiple machine learning models. The final model (Multilayer Perceptron, MLP) was optimized and interpreted using SHAP (SHapley Additive exPlanations) to identify the most influential features governing drug loading outcomes.
